@@ -76,7 +76,7 @@ To run `subzy_takeover.sh`, ensure the following are installed:
 Run the script with the following syntax:
 
 ```bash
-./subzy_takeover.sh -i <input_file1>,<input_file2>,... [-o <output_dir>] [-t <timeout>] [-c <concurrency>] [-v] [-j] [-p <parallel_jobs>]
+./subzy_take_over.sh -i <input_file1>,<input_file2>,... [-o <output_dir>] [-t <timeout>] [-c <concurrency>] [-v] [-j] [-p <parallel_jobs>]
 ```
 
 ### Options
@@ -102,13 +102,13 @@ Run the script with the following syntax:
 2. **Scan multiple files in parallel with JSON output**:
 
    ```bash
-   ./subzy_takeover.sh -i subdomains1.txt,subdomains2.txt -o results -t 15 -c 50 -j -p 2
+   ./subzy_take_over.sh -i subdomains1.txt,subdomains2.txt -o results -t 15 -c 50 -j -p 2
    ```
 
 3. **Max verbosity and JSON output**:
 
    ```bash
-   ./subzy_takeover.sh -i domains.txt -o output -v -j
+   ./subzy_take_over.sh -i domains.txt -o output -v -j
    ```
 
 ---
